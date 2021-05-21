@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Main.css';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 
 // Components
 
@@ -24,6 +23,12 @@ const categoriesData = [
   { category: 'Mikroautobusai', icon: IconVan },
   { category: 'Priekabos', icon: IconTrailer },
   { category: 'Dalys', icon: IconWheel },
+];
+
+const carouselBreakpoints = [
+  { width: 1, itemsToShow: 1, pagination: false },
+  { width: 550, itemsToShow: 3, pagination: false },
+  { width: 850, itemsToShow: 4, pagination: false },
 ];
 
 function Main() {

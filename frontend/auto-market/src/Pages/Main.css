@@ -64,7 +64,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 25px;
+  padding-top: 25px;
 }
 
 .categories-container {
@@ -74,4 +74,17 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 50px;
+}
+
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+
+.rec.rec-arrow {
+  color: #0277b1;
+  background-color: white;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
 }
