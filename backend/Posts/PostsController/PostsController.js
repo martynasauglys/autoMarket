@@ -18,7 +18,7 @@ savePost = async (req, res) => {
     year: req.body.year,
     mileage: req.body.mileage,
     fuelType: req.body.fuelType,
-    transmissionType: req.body.transimssionType,
+    transimssionType: req.body.transimssionType,
     price: req.body.price,
     description: req.body.description,
     image: 'http://localhost:3001/' + req.file.path.replace(`\\`, `/`),

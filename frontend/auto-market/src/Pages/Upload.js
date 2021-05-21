@@ -102,8 +102,8 @@ function Upload() {
                 }
               >
                 <option value='notSelected'>Kuro tipas</option>
-                <option value='Diesel'>Dyzelis</option>
-                <option value='Petrol'>Benzinas</option>
+                <option value='Dyzelis'>Dyzelis</option>
+                <option value='Benzinas'>Benzinas</option>
                 <option value='Elektra'>Elektra</option>
               </select>
             </div>
