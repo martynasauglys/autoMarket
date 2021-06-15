@@ -75,16 +75,3 @@ main {
   margin: 0 auto;
   padding-top: 50px;
 }
-
-.rec.rec-arrow:hover {
-  border-radius: 50%;
-}
-
-.rec.rec-arrow {
-  color: #0277b1;
-  background-color: white;
-}
-
-.rec.rec-arrow:disabled {
-  visibility: hidden;
-}
